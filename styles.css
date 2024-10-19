@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: "Montserrat", sans-serif;
+}
+.container{
+    background-image: url('https://play-lh.googleusercontent.com/D0JhdoPOXLBzCWojSGumVLnHfXC0eWRCXNhlj6yjfOM94bgNnRJvJgtVQDOyVbVjQQ');
+    width: 380px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    -webkit-box-shadow: 1px 21px 28px -7px rgba(231, 80, 99, 0.19);
+    -moz-box-shadow: 1px 21px 28px -7px rgba(231, 80, 99, 0.19);
+    box-shadow: 1px 21px 28px -7px rgba(231, 80, 99, 0.19);
+}
+.container .header{
+    display: flex;
+    flex-direction: row;
+}
+.header h1{
+    font-size: 18px;
+    margin: 30px 0px 0 20px;
+    color: black;
+}
+.header p{
+    font-size: 14px;
+    margin: 30px 0px  0 120px;
+    color: white;
+}
+.container .contacts{
+    margin-left: 20px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.contacts .person{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin: 10px 0 15px 0;
+}
+.person .text{
+    margin-left: 12px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.person .text h2{
+    font-size: 14px;
+}
+.person .text p{
+    font-size: 12px;
+}
+.person button{
+    width: 80px;
+    height: 27px;
+    border: none;
+    color: black;
+    background-color: white;
+    border-radius: 2px;
+    font-family: 'Montserrat';
+    font-size: 10px;
+}
+.person .jerom{
+    padding-left: 55px;
+    padding-top: 15px;
+}
+.person .sally{
+    padding-left: 80px;
+    padding-top: 10px;
+}
+.person .rachel{
+    padding-left: 78px;
+    padding-top: 10px;
+}
+img{
+    width: 50px;
+    border-radius: 50px;
+}
